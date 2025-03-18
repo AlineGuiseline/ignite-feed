@@ -1,0 +1,29 @@
+:root {
+  --white: #fff;
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --green-500: #00875f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-900);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased; /* aplica nos navegadores que são baseados no Webkit, como o Chrome, o Edge e outros uma padronização para as fontes ficarem mais finas e detalhadas (o que é perfeito para quando utilizamos fontes que não são padrões do sistema, como Arial, Helvetica etc) */
+}
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /* sempre priorize medidas relativas para auxiliar na responsividade e nos ajustes que os usuários podem fazer nos seus dispositivos */
+}
