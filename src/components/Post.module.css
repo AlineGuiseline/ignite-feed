@@ -115,3 +115,9 @@
 .commentList {
   margin-top: 2rem;
 }
+
+@media (max-width: 400px) {
+  .post { padding: 1.5rem; }
+  .post > header { display: block; }
+  .author { margin-bottom: 0.5rem; }
+}
